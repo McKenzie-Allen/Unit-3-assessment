@@ -1,11 +1,15 @@
 console.log("hello world");
-
+const yourName = document.querySelector("#yourName")
+const message = document.querySelector("#message")
 
 
 function handleSubmit(evt) {
-	evt.preventDefault();
-	
-	console.log('form submit');
+    evt.preventDefault();
+
+    alert("your comment has been submited");
+    yourName.value = ""
+    message.value = ""
+
 }
 
 
