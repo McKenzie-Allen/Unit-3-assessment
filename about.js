@@ -11,6 +11,14 @@ function handleSubmit(evt) {
     message.value = ""
 
 }
+const catImage = document.querySelector("#cat")
+
+function catCompliment(evt) {
+    evt.preventDefault();
+
+    alert("you have good taste in Images!!!!!!")
+}
+catImage.addEventListener("mouseover", catCompliment)
 
 
 let form = document.querySelector('form#contact');
