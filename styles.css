@@ -37,7 +37,7 @@ img {
 }
 
 .container {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.699);
     border: 3px solid black;
     padding-bottom: 25px;
     display: flex;
@@ -50,4 +50,46 @@ h5 {
     border: 1px dotted black;
     margin: auto;
     margin-top: 5px;
+}
+
+li {
+    margin-right: auto;
+    padding: 5px;
+    margin: auto;
+}
+
+.buttonContain {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.profile {
+    background: #ddd;
+    margin: 1rem;
+    padding: 1rem;
+    margin: 2rem auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+#placeImg {
+    margin: 25px;
+    padding: 25px;
+    box-shadow: black 1px 1px 1px 1px;
+    border: black solid 2px;
+    background-color: rgb(0, 36, 104);
+    animation: mymove 50s infinite;
+    display: none;
+}
+
+@keyframes mymove {
+    50% {
+        background-color: rgb(17, 170, 230);
+    }
+}
+
+.imgcontain {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
